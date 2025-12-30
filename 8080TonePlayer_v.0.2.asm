@@ -186,7 +186,7 @@ TONE::
 	CALL	DIV16
 	POP		D
 	CALL	MUL16
-	LXI		D,0010
+	LXI		D,0020
 	CALL	DIV16
 	POP		D
 	PUSH	H
@@ -311,3 +311,4 @@ SW_Name:		DM	"8080TonePlayer",0
 SW_CopyRight:	DM	"Software copyright (C) 2025 R2AKT",0
 SW_License:		DM	"Software licensed under MIT",0
 SW_Version		DM	"v.0.0.2 BETA",0
+
